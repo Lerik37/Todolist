@@ -1,0 +1,39 @@
+@import '../variables';
+
+.status-filter {
+  &__buttons {
+    display: inline-block;
+  }
+
+  button {
+    padding: 15px 20px;
+    font-size: 18px;
+    border-right: none;
+
+    &:first-child {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+
+    &:last-child {
+      border-right: 1px solid $grey;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+
+
+    &.btn {
+      color: $grey;
+      background: #ffffff;
+      border: 1px solid $grey;
+    }
+    &.active {
+      background: #2c5656;
+      color: #ffffff;
+    }
+  }
+}

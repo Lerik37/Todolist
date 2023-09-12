@@ -1,0 +1,15 @@
+@import '../variables';
+
+.header {
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  &__top-info {
+    color: $grey;
+    font-size: 20px;
+  }
+}

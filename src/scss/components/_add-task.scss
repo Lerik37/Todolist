@@ -1,0 +1,21 @@
+@import '../variables';
+
+.add-task {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+
+  &__button {
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid $light-grey;
+    padding: 10px;
+    font-size: 16px;
+
+    &:hover {
+      cursor: pointer;
+      background: #2c5656;
+      color: #ffffff;
+    }
+  }
+}

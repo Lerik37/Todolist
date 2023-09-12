@@ -1,0 +1,36 @@
+@import './components/all';
+@import './normalize';
+@import './_variables.scss';
+
+body {
+  background: cadetblue;
+}
+
+.wrapper {
+  width: calc(100vw - 200px);
+  height: 100%;
+  background-color: #fff;
+  margin: 50px auto;
+  padding: 50px;
+  border-radius: 10px;
+  max-width: 1400px;
+}
+
+.input {
+  flex: 1 1 50%;
+  border-radius: 10px;
+  border: 1px solid $light-grey;
+  padding: 10px;
+  min-height: 53px;
+
+  &::placeholder {
+color: #a4a4a4;
+    font-size: 16px;
+  }
+}
+.search-and-status-filter {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 20px;
+}
