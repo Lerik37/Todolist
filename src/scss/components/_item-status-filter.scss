@@ -8,6 +8,7 @@
   button {
     padding: 15px 20px;
     font-size: 18px;
+    border: 1px solid $grey;
     border-right: none;
 
     &:first-child {
@@ -29,7 +30,6 @@
     &.btn {
       color: $grey;
       background: #ffffff;
-      border: 1px solid $grey;
     }
     &.active {
       background: #2c5656;
